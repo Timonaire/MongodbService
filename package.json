@@ -1,0 +1,22 @@
+{
+  "name": "ripple-impact",
+  "version": "1.0.0",
+  "description": "Graphql service test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Timothy Ikechukwu",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^3.12.1",
+    "bcrypt": "^5.1.1",
+    "graphql": "^16.8.0",
+    "graphql-scalars": "^1.22.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.5.0",
+    "nodemon": "^3.0.1",
+    "passport": "^0.6.0",
+    "path": "^0.12.7"
+  }
+}
