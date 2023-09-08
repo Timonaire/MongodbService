@@ -1,7 +1,4 @@
 const {
-  GraphQLDate
-} = require('graphql-scalars');
-const {
   gql
 } = require('apollo-server');
 
