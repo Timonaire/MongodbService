@@ -1,7 +1,11 @@
-const {GraphQLDate} = require('graphql-scalars');
-const { gql} = require('apollo-server');
+const {
+  GraphQLDate
+} = require('graphql-scalars');
+const {
+  gql
+} = require('apollo-server');
 
-module.exports = gql`
+module.exports = gql `
 # Query to fetch user information
 type Query {
   # Fetch the currently authenticated user
